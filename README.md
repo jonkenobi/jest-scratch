@@ -1,7 +1,7 @@
-#jest-scratch 
+# jest-scratch 
 Some scratch notes for when I was implementing jest into vue (code is incomplete)
 
-##jest.config.js 
+## jest.config.js 
 Create jest.config.js at the same level as package.json
 ```
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
    //I would like to organize the test files in the same directory of the components to test so. 
 };
 ```
-##package.json 
+## package.json 
 
 Install jest by running
 ```
@@ -22,8 +22,8 @@ scripts:{
   "test": "jest --verbose"   // now you can do "npm test" in the command line 
 }
 ```
-##BaseTokenSelectDropdown.unit.test.js
-###Random unfinished jest test files 
+## BaseTokenSelectDropdown.unit.test.js
+### Random unfinished jest test files 
 ```
 import vuetify from 'vuetify';
 import Vuex from 'vuex';
@@ -76,6 +76,6 @@ const tokenType = [{
 }
  ```
 
-##Links 
-[Vue-test-utils](https://vue-test-utils.vuejs.org/guides/#getting-started): Vue's official documentation and tool for using jest with vue. 
-[Vuetify](https://next.vuetifyjs.com/en/getting-started/unit-testing/#spec-tests): Vuetify's documentation on using jest. 
+## Links 
+- [Vue-test-utils](https://vue-test-utils.vuejs.org/guides/#getting-started): Vue's official documentation and tool for using jest with vue. 
+- [Vuetify](https://next.vuetifyjs.com/en/getting-started/unit-testing/#spec-tests): Vuetify's documentation on using jest. 
